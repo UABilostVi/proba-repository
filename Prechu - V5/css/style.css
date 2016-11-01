@@ -1,0 +1,460 @@
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SegoeUILight";
+    src: url("../fonts/SegoeUILight.eot");
+    src: url("../fonts/SegoeUILight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUILight.woff") format("woff"),
+    url("../fonts/SegoeUILight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?w9fbmb');
+  src:  url('../fonts/icomoon.eot?w9fbmb#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?w9fbmb') format('truetype'),
+    url('../fonts/icomoon.woff?w9fbmb') format('woff'),
+    url('../fonts/icomoon.svg?w9fbmb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	margin: 0;
+	font-family: "SegoeUILight";
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.max-width {
+	max-width: 976px;
+	margin: auto;
+}
+
+.header {
+	height: 90px;
+	position: relative;
+}
+
+.logo {
+	display: block;
+    font-size: 43px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    left: 30px;
+    margin-left: 65px;
+}
+
+.logo:before {
+	content: "q";
+    font-family: 'icomoon';
+    margin-right: 15px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    position: absolute;
+    left: -65px;
+    top: 50%;
+    margin-top: -25px;
+}
+
+.main-nav {
+	float: right;
+	margin: 0;
+	margin-right: 20px;
+	padding: 0;
+	margin-top: 54px;
+	font-family: "MyriadProRegular";
+	font-weight: 100;
+}
+
+.main-nav li {
+	display: inline-block;
+	font-size: 20px;
+	padding-right: 30px;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: #6c6c6c;
+}
+
+.baner-wrapper {
+	background: url(../images/bg-banner.jpg) 0 0 repeat-x,
+                url(../images/zub.png) 0 bottom repeat-x;
+}
+
+.baner {
+    height: 480px;
+}
+
+.baner img {
+    width: 352px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.text-baner {
+    float: right;
+    position: absolute;
+    top: 50%;
+    margin-top: -80px;
+    right: 105px;
+    max-width: 400px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.text-baner span {
+    display: block;
+}
+
+.slick-initialized .slick-slide {
+    position: relative;
+    height: 480px;
+}
+
+.simply {
+    display: block;
+    font-size: 42px;
+}
+
+.sign {
+    width: 170px;
+    height: 40px;
+    background-color: #5094f2;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    font-size: 22px;
+    font-family: "SegoeUILight";
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.sign:before {
+    content: "k";
+    font-family: 'icomoon';
+    margin-right: 10px;
+}
+
+.contrary-t-p {
+    overflow: hidden;
+}
+
+.ctp-own {
+	float: left;
+    width: 33.3333333333%;
+    box-sizing: border-box;
+    margin-top: 270px;
+    position: relative;
+}
+
+.ctp-own h2 {
+	font-size: 20px;
+	color: #5094f2;
+	margin: 10px 0;
+    text-align: center;
+}
+
+.ctp-own span {
+	color: #909090;
+    font-size: 14px;
+    text-align: center;
+    max-width: 256px;
+    display: block;
+    margin: auto;
+}
+
+.ctp-p:before {
+    content: "p";
+    background: #5094f2;
+    font-family: 'icomoon';
+    font-size: 110px; 
+    border-radius: 50%;
+    padding: 40px;
+    margin-bottom: 90px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    margin-right: -95px;
+}
+
+.ctp-m:before {
+	content: "m";
+    font-family: 'icomoon';
+    font-size: 110px;
+    background: #d94748;
+    border-radius: 50%;
+    padding: 40px;
+    margin-bottom: 90px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    margin-right: -95px;
+}
+
+.ctp-b:before {
+	content: "b";
+    font-family: 'icomoon';
+    font-size: 110px;
+    background: #ebbb11;
+    border-radius: 50%;
+    padding: 40px;
+    margin-bottom: 90px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    margin-right: -95px;
+}
+
+.shopping-wrapper {
+    color: #6f7173;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.korzina {
+    float: left; 
+    padding-left: 38px;
+    margin-right: 90px;
+}
+
+.korzina h1 {
+    font-size: 42px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.shopp-text {
+    padding-top: 60px;
+}
+
+.shopp-text h2 {
+    font-size: 26px;
+    margin-top: 0;
+}
+
+.shopp-text p {
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.footer-wrapper {
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer {
+    font-size: 15px;
+    color: #6f7173;
+    font-family: "SegoeUILight";
+    height: 95px;
+    position: relative;
+}
+
+.footer span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 50%;
+    margin-right: -100px;
+}
+
+@media screen and (max-width: 640px) {
+    .logo {
+    	font-size: 49px;
+    	margin-top: -33px;
+    }
+    .main-nav {
+    	display: none;
+    }
+
+    .burger:after {
+       content: "r";
+       font-family: 'icomoon';
+       font-size: 35px;
+       padding: 10px;
+       background: #5094f2;
+       color: #fff;
+       border-radius: 2px;
+       position: absolute;
+       top: 50%;
+       margin-top: -28px;
+       right: 25px;
+    }
+
+    .baner {
+       height: 247px;
+    }
+
+    .text-baner {
+    	right: 70px;
+        margin-top: -190px;
+    }
+
+    .baner img {
+    	position: absolute;
+        width: 180px;
+        padding-top: 22px;
+        padding-left: 38px;
+        left: 0;
+        top: 0;
+        margin: 0;
+    }
+
+    .text-baner .simply {
+    	font-size: 30px;
+    	margin: 0;
+    }
+
+    .text-baner span {
+    	font-size: 23px;
+    }
+
+    .sign {
+    	width: 235px;
+    	height: 53px;
+    	font-size: 31px;
+    	margin-left: 0;
+    } 
+
+    .ctp-own {
+    	width: 100%;
+        margin-top: 0;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .ctp-own span {
+        color: #909090;
+        font-size: 19px;
+        text-align: left;
+        max-width: 355px;
+        margin: 0;
+    }
+
+    .ctp-own h2 {
+       font-size: 34px;
+       color: #5094f2;
+       margin: 0;
+       text-align: left;
+    }
+
+    .ctp-text {
+        padding: 67px 0 40px 200px;
+    }
+
+    .ctp-p:before {
+        content: "p";
+        background: #5094f2;
+        font-family: 'icomoon';
+        font-size: 82px;
+        border-radius: 50%;
+        padding: 27px;
+        color: #fff;
+        position: absolute;
+        margin: 0;
+        top: 40px;
+        left: 45px;
+        bottom: auto;
+        right: auto;
+    }
+
+        .ctp-m:before {
+        content: "m";
+        background: #d94748;
+        font-family: 'icomoon';
+        font-size: 82px;
+        border-radius: 50%;
+        padding: 27px;
+        color: #fff;
+        position: absolute;
+        margin: 0;
+        top: 40px;
+        left: 45px;
+        bottom: auto;
+        right: auto;
+    }
+
+        .ctp-b:before {
+        content: "b";
+        background: #ebbb11;
+        font-family: 'icomoon';
+        font-size: 82px;
+        border-radius: 50%;
+        padding: 27px;
+        color: #fff;
+        position: absolute;
+        margin: 0;
+        top: 40px;
+        left: 45px;
+        bottom: auto;
+        right: auto;
+    }
+
+    .korzina {
+        float: none;
+        margin-right: 0;
+    }
+
+    .korzina img {
+        width: 205px;
+        display: block;
+        margin: auto;
+    }
+    
+    .korzina h1 {
+       font-size: 42px;
+       margin: auto;
+       margin-bottom: 30px;
+       max-width: 350px;
+    }
+
+    .shopp-text {
+        padding-left: 75px;
+        padding-right: 60px;
+        font-size: 17px;
+        line-height: 36px;
+    }
+
+    .shopp-text h2 {
+        font-size: 34px;
+    }
+     .header .main-nav {
+        position: absolute;
+        left: 100%;
+        right: 0;
+        top: 103px;
+        background: #5094f2;
+        z-index: 5;
+    }
+
+    .header .main-nav li {
+        display: block;
+        padding: 10px;
+        border-bottom: 2px solid grey;
+    }
+
+    .header .main-nav a {
+        color: #fff;
+    }
+}
